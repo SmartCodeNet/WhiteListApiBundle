@@ -1,0 +1,38 @@
+{
+  "name": "gg/white-list-api-bundle",
+  "description": "White list Symfony bundle",
+  "type": "symfony-bundle",
+  "keywords": ["white list", "php", "symfony", "bundle", "white list api"],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Krzysztof Orzoł",
+      "email": "krzysztoforzol@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "ext-ctype": "*",
+    "ext-iconv": "*",
+    "ext-simplexml": "*",
+    "ext-soap": "*",
+    "symfony/http-client": "4.4.*"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "gg\\WhiteListApiBundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}

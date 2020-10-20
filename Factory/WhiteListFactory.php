@@ -18,7 +18,7 @@ class WhiteListFactory implements WhiteListFactoryInterface
         $this->developMode = $developMode;
     }
 
-    public function createGusExtension(): WhiteListService
+    public function createWhiteListExtension(): WhiteListService
     {
         $extension = WhiteListExtension::instance(
             ($this->developMode) ? null :

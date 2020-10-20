@@ -6,5 +6,5 @@ use gg\WhiteListApiBundle\Service\WhiteListService;
 
 interface WhiteListFactoryInterface
 {
-    public function createGusExtension(): WhiteListService;
+    public function createWhiteListExtension(): WhiteListService;
 }

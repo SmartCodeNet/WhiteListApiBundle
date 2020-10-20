@@ -4,4 +4,4 @@ services:
     arguments:
       - ~
 
-  gg\WhiteListApiBundle\Factory\GusFactoryInterface: '@gg\WhiteListApiBundle\Factory\WhiteListFactory'
+  gg\WhiteListApiBundle\Factory\WhiteListFactoryInterface: '@gg\WhiteListApiBundle\Factory\WhiteListFactory'
